@@ -1,2 +1,2 @@
-# Shop
-Woo commerce Shop
+# Corlate
+A static to dynamic conversion of the corlate theme
