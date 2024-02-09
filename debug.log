@@ -1,0 +1,608 @@
+[21-Jul-2023 08:58:26 UTC] PHP Warning:  Undefined variable $slider in C:\wamp64\www\corlate\wp-content\themes\corlate\template-parts\front-page\slider.php on line 9
+[21-Jul-2023 08:58:26 UTC] PHP Stack trace:
+[21-Jul-2023 08:58:26 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[21-Jul-2023 08:58:26 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[21-Jul-2023 08:58:26 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[21-Jul-2023 08:58:26 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[21-Jul-2023 08:58:26 UTC] PHP   5. get_template_part($slug = 'template-parts/front-page/slider', $name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:21
+[21-Jul-2023 08:58:26 UTC] PHP   6. locate_template($template_names = [0 => 'template-parts/front-page/slider.php'], $load = TRUE, $load_once = FALSE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:204
+[21-Jul-2023 08:58:26 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/template-parts/front-page/slider.php', $load_once = FALSE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[21-Jul-2023 08:58:26 UTC] PHP   8. require() C:\wamp64\www\corlate\wp-includes\template.php:785
+[21-Jul-2023 09:03:05 UTC] PHP Warning:  Array to string conversion in C:\wamp64\www\corlate\wp-content\plugins\what-the-file\what-the-file.php on line 166
+[21-Jul-2023 09:03:05 UTC] PHP Stack trace:
+[21-Jul-2023 09:03:05 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[21-Jul-2023 09:03:05 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[21-Jul-2023 09:03:05 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[21-Jul-2023 09:03:05 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[21-Jul-2023 09:03:05 UTC] PHP   5. get_template_part($slug = 'template-parts/front-page/features', $name = ['test' => 'thisis'], $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:29
+[21-Jul-2023 09:03:05 UTC] PHP   6. do_action($hook_name = 'get_template_part_template-parts/front-page/features', ...$arg = variadic('template-parts/front-page/features', ['test' => 'thisis'], [])) C:\wamp64\www\corlate\wp-includes\general-template.php:181
+[21-Jul-2023 09:03:05 UTC] PHP   7. _wp_call_all_hook($args = [0 => 'get_template_part_template-parts/front-page/features', 1 => 'template-parts/front-page/features', 2 => ['test' => 'thisis'], 3 => []]) C:\wamp64\www\corlate\wp-includes\plugin.php:495
+[21-Jul-2023 09:03:05 UTC] PHP   8. WP_Hook->do_all_hook($args = [0 => 'get_template_part_template-parts/front-page/features', 1 => 'template-parts/front-page/features', 2 => ['test' => 'thisis'], 3 => []]) C:\wamp64\www\corlate\wp-includes\plugin.php:963
+[21-Jul-2023 09:03:05 UTC] PHP   9. WhatTheFile->save_template_parts($tag = 'get_template_part_template-parts/front-page/features', $slug = 'template-parts/front-page/features', $name = ['test' => 'thisis'], []) C:\wamp64\www\corlate\wp-includes\class-wp-hook.php:355
+[21-Jul-2023 09:03:05 UTC] PHP Warning:  Array to string conversion in C:\wamp64\www\corlate\wp-includes\general-template.php on line 184
+[21-Jul-2023 09:03:05 UTC] PHP Stack trace:
+[21-Jul-2023 09:03:05 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[21-Jul-2023 09:03:05 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[21-Jul-2023 09:03:05 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[21-Jul-2023 09:03:05 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[21-Jul-2023 09:03:05 UTC] PHP   5. get_template_part($slug = 'template-parts/front-page/features', $name = ['test' => 'thisis'], $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:29
+[24-Jul-2023 04:04:12 UTC] PHP Warning:  Undefined variable $comment_args in C:\wamp64\www\corlate\wp-content\themes\corlate\inc\overide-widget.php on line 69
+[24-Jul-2023 04:04:12 UTC] PHP Stack trace:
+[24-Jul-2023 04:04:12 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 04:04:12 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 04:04:12 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 04:04:12 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 04:04:12 UTC] PHP   5. dynamic_sidebar($index = 'sidebar-aside') C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:107
+[24-Jul-2023 04:04:12 UTC] PHP   6. WP_Widget->display_callback($args = ['name' => 'Sidebar (Aside)', 'id' => 'sidebar-aside', 'description' => 'aside sidebar', 'class' => '', 'before_widget' => '', 'after_widget' => '', 'before_title' => '', 'after_title' => '', 'before_sidebar' => '', 'after_sidebar' => '', 'show_in_rest' => FALSE, 'widget_id' => 'recent-comments-3', 'widget_name' => 'Recent Comments'], $widget_args = ['number' => 3]) C:\wamp64\www\corlate\wp-includes\widgets.php:835
+[24-Jul-2023 04:04:12 UTC] PHP   7. My_Recent_Comments->widget($args = ['name' => 'Sidebar (Aside)', 'id' => 'sidebar-aside', 'description' => 'aside sidebar', 'class' => '', 'before_widget' => '', 'after_widget' => '', 'before_title' => '', 'after_title' => '', 'before_sidebar' => '', 'after_sidebar' => '', 'show_in_rest' => FALSE, 'widget_id' => 'recent-comments-3', 'widget_name' => 'Recent Comments'], $instance = ['title' => 'Recent Comments', 'number' => 3]) C:\wamp64\www\corlate\wp-includes\class-wp-widget.php:394
+[24-Jul-2023 04:35:43 UTC] PHP Warning:  Undefined variable $instance in C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php on line 125
+[24-Jul-2023 04:35:43 UTC] PHP Stack trace:
+[24-Jul-2023 04:35:43 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 04:35:43 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 04:35:43 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 04:35:43 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 04:35:43 UTC] PHP Notice:  Function the_widget was called <strong>incorrectly</strong>. Widgets need to be registered using <code>register_widget()</code>, before they can be displayed. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.9.0.) in C:\wamp64\www\corlate\wp-includes\functions.php on line 5865
+[24-Jul-2023 04:35:43 UTC] PHP Stack trace:
+[24-Jul-2023 04:35:43 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 04:35:43 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 04:35:43 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 04:35:43 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 04:35:43 UTC] PHP   5. the_widget($widget = 'WP_Widget_Recent_Comments', $instance = NULL, $args = ['posts_per_page' => 2, 'paged' => 1]) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:125
+[24-Jul-2023 04:35:43 UTC] PHP   6. _doing_it_wrong($function_name = 'the_widget', $message = 'Widgets need to be registered using <code>register_widget()</code>, before they can be displayed.', $version = '4.9.0') C:\wamp64\www\corlate\wp-includes\widgets.php:1217
+[24-Jul-2023 04:35:43 UTC] PHP   7. trigger_error($message = 'Function the_widget was called <strong>incorrectly</strong>. Widgets need to be registered using <code>register_widget()</code>, before they can be displayed. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.9.0.)', $error_level = 1024) C:\wamp64\www\corlate\wp-includes\functions.php:5865
+[24-Jul-2023 04:36:40 UTC] PHP Warning:  Undefined variable $instance in C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php on line 125
+[24-Jul-2023 04:36:40 UTC] PHP Stack trace:
+[24-Jul-2023 04:36:40 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 04:36:40 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 04:36:40 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 04:36:40 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 04:36:40 UTC] PHP Notice:  Function the_widget was called <strong>incorrectly</strong>. Widgets need to be registered using <code>register_widget()</code>, before they can be displayed. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.9.0.) in C:\wamp64\www\corlate\wp-includes\functions.php on line 5865
+[24-Jul-2023 04:36:40 UTC] PHP Stack trace:
+[24-Jul-2023 04:36:40 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 04:36:40 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 04:36:40 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 04:36:40 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 04:36:40 UTC] PHP   5. the_widget($widget = 'WP_Widget_Recent_Comments', $instance = NULL, $args = ['posts_per_page' => 2, 'paged' => 1]) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:125
+[24-Jul-2023 04:36:40 UTC] PHP   6. _doing_it_wrong($function_name = 'the_widget', $message = 'Widgets need to be registered using <code>register_widget()</code>, before they can be displayed.', $version = '4.9.0') C:\wamp64\www\corlate\wp-includes\widgets.php:1217
+[24-Jul-2023 04:36:40 UTC] PHP   7. trigger_error($message = 'Function the_widget was called <strong>incorrectly</strong>. Widgets need to be registered using <code>register_widget()</code>, before they can be displayed. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.9.0.)', $error_level = 1024) C:\wamp64\www\corlate\wp-includes\functions.php:5865
+[24-Jul-2023 04:38:13 UTC] PHP Notice:  Function the_widget was called <strong>incorrectly</strong>. Widgets need to be registered using <code>register_widget()</code>, before they can be displayed. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.9.0.) in C:\wamp64\www\corlate\wp-includes\functions.php on line 5865
+[24-Jul-2023 04:38:13 UTC] PHP Stack trace:
+[24-Jul-2023 04:38:13 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 04:38:13 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 04:38:13 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 04:38:13 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 04:38:13 UTC] PHP   5. the_widget($widget = 'WP_Widget_Recent_Comments', $instance = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:125
+[24-Jul-2023 04:38:13 UTC] PHP   6. _doing_it_wrong($function_name = 'the_widget', $message = 'Widgets need to be registered using <code>register_widget()</code>, before they can be displayed.', $version = '4.9.0') C:\wamp64\www\corlate\wp-includes\widgets.php:1217
+[24-Jul-2023 04:38:13 UTC] PHP   7. trigger_error($message = 'Function the_widget was called <strong>incorrectly</strong>. Widgets need to be registered using <code>register_widget()</code>, before they can be displayed. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.9.0.)', $error_level = 1024) C:\wamp64\www\corlate\wp-includes\functions.php:5865
+[24-Jul-2023 04:40:23 UTC] PHP Notice:  Function the_widget was called <strong>incorrectly</strong>. Widgets need to be registered using <code>register_widget()</code>, before they can be displayed. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.9.0.) in C:\wamp64\www\corlate\wp-includes\functions.php on line 5865
+[24-Jul-2023 04:40:23 UTC] PHP Stack trace:
+[24-Jul-2023 04:40:23 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 04:40:23 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 04:40:23 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 04:40:23 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 04:40:23 UTC] PHP   5. the_widget($widget = 'WP_Widget_Recent_Comments', $instance = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:125
+[24-Jul-2023 04:40:23 UTC] PHP   6. _doing_it_wrong($function_name = 'the_widget', $message = 'Widgets need to be registered using <code>register_widget()</code>, before they can be displayed.', $version = '4.9.0') C:\wamp64\www\corlate\wp-includes\widgets.php:1217
+[24-Jul-2023 04:40:23 UTC] PHP   7. trigger_error($message = 'Function the_widget was called <strong>incorrectly</strong>. Widgets need to be registered using <code>register_widget()</code>, before they can be displayed. Please see <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 4.9.0.)', $error_level = 1024) C:\wamp64\www\corlate\wp-includes\functions.php:5865
+[24-Jul-2023 05:11:57 UTC] PHP Fatal error:  Cannot declare class WP_Widget_Categories, because the name is already in use in C:\wamp64\www\corlate\wp-content\themes\corlate\inc\overide-widget.php on line 0
+[24-Jul-2023 05:11:57 UTC] PHP Stack trace:
+[24-Jul-2023 05:11:57 UTC] PHP   1. {main}() C:\wamp64\www\corlate\wp-admin\admin-ajax.php:0
+[24-Jul-2023 05:11:57 UTC] PHP   2. require_once() C:\wamp64\www\corlate\wp-admin\admin-ajax.php:22
+[24-Jul-2023 05:11:57 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-load.php:50
+[24-Jul-2023 05:11:57 UTC] PHP   4. require_once() C:\wamp64\www\corlate\wp-config.php:99
+[24-Jul-2023 05:11:57 UTC] PHP   5. include() C:\wamp64\www\corlate\wp-settings.php:591
+[24-Jul-2023 05:11:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\wamp64\www\corlate\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[24-Jul-2023 05:11:57 UTC] PHP Stack trace:
+[24-Jul-2023 05:11:57 UTC] PHP   1. {main}() C:\wamp64\www\corlate\wp-admin\admin-ajax.php:0
+[24-Jul-2023 05:11:57 UTC] PHP   2. require_once() C:\wamp64\www\corlate\wp-admin\admin-ajax.php:22
+[24-Jul-2023 05:11:57 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-load.php:50
+[24-Jul-2023 05:11:57 UTC] PHP   4. require_once() C:\wamp64\www\corlate\wp-config.php:99
+[24-Jul-2023 05:11:57 UTC] PHP   5. include() C:\wamp64\www\corlate\wp-settings.php:591
+[24-Jul-2023 05:11:57 UTC] PHP   6. WP_Fatal_Error_Handler->handle() C:\wamp64\www\corlate\wp-includes\class-wp-fatal-error-handler.php:0
+[24-Jul-2023 05:11:57 UTC] PHP   7. WP_Recovery_Mode->handle_error($error = ['type' => 64, 'message' => 'Cannot declare class WP_Widget_Categories, because the name is already in use', 'file' => 'C:\\wamp64\\www\\corlate\\wp-content\\themes\\corlate\\inc\\overide-widget.php', 'line' => 0]) C:\wamp64\www\corlate\wp-includes\class-wp-fatal-error-handler.php:53
+[24-Jul-2023 05:11:57 UTC] PHP   8. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 64, 'message' => 'Cannot declare class WP_Widget_Categories, because the name is already in use', 'file' => 'C:\\wamp64\\www\\corlate\\wp-content\\themes\\corlate\\inc\\overide-widget.php', 'line' => 0], $extension = ['type' => 'theme', 'slug' => 'corlate']) C:\wamp64\www\corlate\wp-includes\class-wp-recovery-mode.php:185
+[24-Jul-2023 05:11:57 UTC] PHP   9. WP_Recovery_Mode_Email_Service->send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 64, 'message' => 'Cannot declare class WP_Widget_Categories, because the name is already in use', 'file' => 'C:\\wamp64\\www\\corlate\\wp-content\\themes\\corlate\\inc\\overide-widget.php', 'line' => 0], $extension = ['type' => 'theme', 'slug' => 'corlate']) C:\wamp64\www\corlate\wp-includes\class-wp-recovery-mode-email-service.php:62
+[24-Jul-2023 05:11:57 UTC] PHP  10. WP_Recovery_Mode_Email_Service->get_debug($extension = ['type' => 'theme', 'slug' => 'corlate']) C:\wamp64\www\corlate\wp-includes\class-wp-recovery-mode-email-service.php:150
+[24-Jul-2023 05:11:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\wamp64\www\corlate\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[24-Jul-2023 05:11:57 UTC] PHP Stack trace:
+[24-Jul-2023 05:11:57 UTC] PHP   1. {main}() C:\wamp64\www\corlate\wp-admin\admin-ajax.php:0
+[24-Jul-2023 05:11:57 UTC] PHP   2. require_once() C:\wamp64\www\corlate\wp-admin\admin-ajax.php:22
+[24-Jul-2023 05:11:57 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-load.php:50
+[24-Jul-2023 05:11:57 UTC] PHP   4. require_once() C:\wamp64\www\corlate\wp-config.php:99
+[24-Jul-2023 05:11:57 UTC] PHP   5. include() C:\wamp64\www\corlate\wp-settings.php:591
+[24-Jul-2023 05:11:57 UTC] PHP   6. WP_Fatal_Error_Handler->handle() C:\wamp64\www\corlate\wp-includes\class-wp-fatal-error-handler.php:0
+[24-Jul-2023 05:11:57 UTC] PHP   7. WP_Recovery_Mode->handle_error($error = ['type' => 64, 'message' => 'Cannot declare class WP_Widget_Categories, because the name is already in use', 'file' => 'C:\\wamp64\\www\\corlate\\wp-content\\themes\\corlate\\inc\\overide-widget.php', 'line' => 0]) C:\wamp64\www\corlate\wp-includes\class-wp-fatal-error-handler.php:53
+[24-Jul-2023 05:11:57 UTC] PHP   8. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 64, 'message' => 'Cannot declare class WP_Widget_Categories, because the name is already in use', 'file' => 'C:\\wamp64\\www\\corlate\\wp-content\\themes\\corlate\\inc\\overide-widget.php', 'line' => 0], $extension = ['type' => 'theme', 'slug' => 'corlate']) C:\wamp64\www\corlate\wp-includes\class-wp-recovery-mode.php:185
+[24-Jul-2023 05:11:57 UTC] PHP   9. WP_Recovery_Mode_Email_Service->send_recovery_mode_email($rate_limit = 86400, $error = ['type' => 64, 'message' => 'Cannot declare class WP_Widget_Categories, because the name is already in use', 'file' => 'C:\\wamp64\\www\\corlate\\wp-content\\themes\\corlate\\inc\\overide-widget.php', 'line' => 0], $extension = ['type' => 'theme', 'slug' => 'corlate']) C:\wamp64\www\corlate\wp-includes\class-wp-recovery-mode-email-service.php:62
+[24-Jul-2023 05:11:57 UTC] PHP  10. WP_Recovery_Mode_Email_Service->get_debug($extension = ['type' => 'theme', 'slug' => 'corlate']) C:\wamp64\www\corlate\wp-includes\class-wp-recovery-mode-email-service.php:150
+[24-Jul-2023 08:59:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc() in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php:35
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-includes\template.php(783): require_once()
+#1 C:\wamp64\www\corlate\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\corlate\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php(167): get_footer()
+#4 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 09:00:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc() in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php:35
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-includes\template.php(783): require_once()
+#1 C:\wamp64\www\corlate\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\corlate\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php(167): get_footer()
+#4 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 09:00:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc() in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php:35
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-includes\template.php(783): require_once()
+#1 C:\wamp64\www\corlate\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\corlate\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php(96): get_footer()
+#4 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 09:00:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc() in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php:35
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-includes\template.php(783): require_once()
+#1 C:\wamp64\www\corlate\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\corlate\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php(96): get_footer()
+#4 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 09:00:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc() in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php:35
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-includes\template.php(783): require_once()
+#1 C:\wamp64\www\corlate\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\corlate\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php(167): get_footer()
+#4 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 09:18:06 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + int in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php:38
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-includes\template.php(783): require_once()
+#1 C:\wamp64\www\corlate\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\c...', true, Array)
+#2 C:\wamp64\www\corlate\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php(167): get_footer()
+#4 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#5 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#7 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 38
+[24-Jul-2023 10:11:24 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:11:24 UTC] PHP Stack trace:
+[24-Jul-2023 10:11:24 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:11:24 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:11:24 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:11:24 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:11:24 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:167
+[24-Jul-2023 10:11:24 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:11:24 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:11:24 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:11:24 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:11:24 UTC] PHP Stack trace:
+[24-Jul-2023 10:11:24 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:11:24 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:11:24 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:11:24 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:11:24 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:167
+[24-Jul-2023 10:11:24 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:11:24 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:11:24 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:11:47 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:11:47 UTC] PHP Stack trace:
+[24-Jul-2023 10:11:47 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:11:47 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:11:47 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:11:47 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:11:47 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:11:47 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:11:47 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:11:47 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:11:47 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:11:47 UTC] PHP Stack trace:
+[24-Jul-2023 10:11:47 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:11:47 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:11:47 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:11:47 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:11:47 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:11:47 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:11:47 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:11:47 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:12:00 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:12:00 UTC] PHP Stack trace:
+[24-Jul-2023 10:12:00 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:12:00 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:12:00 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:12:00 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:12:00 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:12:00 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:12:01 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:12:01 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:12:01 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:12:01 UTC] PHP Stack trace:
+[24-Jul-2023 10:12:01 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:12:01 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:12:01 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:12:01 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:12:01 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:12:01 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:12:01 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:12:01 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:13:47 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\wamp64\www\corlate\wp-content\themes\corlate\inc\customizer.php on line 183
+[24-Jul-2023 10:14:03 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:14:03 UTC] PHP Stack trace:
+[24-Jul-2023 10:14:03 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:14:03 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:14:03 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:14:03 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:14:03 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:14:03 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:14:03 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:14:03 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:14:03 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:14:03 UTC] PHP Stack trace:
+[24-Jul-2023 10:14:03 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:14:03 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:14:03 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:14:03 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:14:03 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:14:03 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:14:03 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:14:03 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:14:17 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:14:17 UTC] PHP Stack trace:
+[24-Jul-2023 10:14:17 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:14:17 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:14:17 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:14:17 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:14:17 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:14:17 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:14:17 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:14:17 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:14:17 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:14:17 UTC] PHP Stack trace:
+[24-Jul-2023 10:14:17 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:14:17 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:14:17 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:14:17 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:14:17 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:14:17 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:14:17 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:14:17 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:17:28 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\wamp64\www\corlate\wp-content\themes\corlate\inc\customizer.php on line 183
+[24-Jul-2023 10:17:42 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:17:42 UTC] PHP Stack trace:
+[24-Jul-2023 10:17:42 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:17:42 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:17:42 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:17:42 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:17:42 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:17:42 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:17:42 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:17:42 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:17:42 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:17:42 UTC] PHP Stack trace:
+[24-Jul-2023 10:17:42 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:17:42 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:17:42 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:17:42 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:17:42 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:17:42 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:17:42 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:17:42 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:20:19 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:20:19 UTC] PHP Stack trace:
+[24-Jul-2023 10:20:19 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:20:19 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:20:19 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:20:19 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:20:19 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:20:19 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:20:19 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:20:19 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:20:19 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 35
+[24-Jul-2023 10:20:19 UTC] PHP Stack trace:
+[24-Jul-2023 10:20:19 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:20:19 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:20:19 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:20:19 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:20:19 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:20:19 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:20:19 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:20:19 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:21:57 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:21:57 UTC] PHP Stack trace:
+[24-Jul-2023 10:21:57 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:21:57 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:21:57 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:21:57 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:21:57 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:167
+[24-Jul-2023 10:21:57 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:21:57 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:21:57 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:21:57 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:21:57 UTC] PHP Stack trace:
+[24-Jul-2023 10:21:57 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:21:57 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:21:57 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:21:57 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:21:57 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:167
+[24-Jul-2023 10:21:57 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:21:57 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:21:57 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:04 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:04 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:04 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:04 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:04 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:04 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:04 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:22:04 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:04 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:04 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:04 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:04 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:04 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:04 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:04 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:04 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:04 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:22:04 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:04 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:04 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:11 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:11 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:11 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:11 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:11 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:11 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:11 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:22:11 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:11 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:11 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:11 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:11 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:11 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:11 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:11 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:11 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:11 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:22:11 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:11 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:11 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:15 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:15 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:15 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:15 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:15 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:15 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:15 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:22:15 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:15 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:15 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:15 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:15 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:15 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:15 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:15 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:15 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:15 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:22:15 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:15 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:15 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:21 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:21 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:21 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:21 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:21 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:21 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:21 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:22:21 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:21 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:21 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:21 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:21 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:21 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:21 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:21 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:21 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:21 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:22:21 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:21 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:21 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:22 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:22 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:22 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:22 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:22 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:22 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:22 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:22:22 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:22 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:22 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:22 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:22 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:22 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:22 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:22 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:22 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:22 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:22:22 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:22 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:22 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:27 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:27 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:27 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:27 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:27 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:27 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:27 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:167
+[24-Jul-2023 10:22:27 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:27 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:27 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:27 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 36
+[24-Jul-2023 10:22:27 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:27 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:27 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:27 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:27 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:27 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:167
+[24-Jul-2023 10:22:27 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:27 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:27 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:58 UTC] PHP Warning:  Undefined variable $url in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 38
+[24-Jul-2023 10:22:58 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:58 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:58 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:58 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:58 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:58 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:167
+[24-Jul-2023 10:22:58 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:58 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:58 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:22:58 UTC] PHP Warning:  Undefined variable $url_text in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 38
+[24-Jul-2023 10:22:58 UTC] PHP Stack trace:
+[24-Jul-2023 10:22:58 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:22:58 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:22:58 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:22:58 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:22:58 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:167
+[24-Jul-2023 10:22:58 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:22:58 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:22:58 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:35:06 UTC] PHP Fatal error:  Cannot use [] for reading in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 38
+[24-Jul-2023 10:35:06 UTC] PHP Stack trace:
+[24-Jul-2023 10:35:06 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:35:06 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:35:06 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:35:06 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:35:06 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php:167
+[24-Jul-2023 10:35:06 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:35:06 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:37:45 UTC] PHP Warning:  Undefined array key 3 in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 37
+[24-Jul-2023 10:37:45 UTC] PHP Stack trace:
+[24-Jul-2023 10:37:45 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:37:45 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:37:45 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:37:45 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:37:45 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:37:45 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:37:45 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:37:45 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:42:29 UTC] PHP Warning:  Undefined array key 2 in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 40
+[24-Jul-2023 10:42:29 UTC] PHP Stack trace:
+[24-Jul-2023 10:42:29 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:42:29 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:42:29 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:42:29 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:42:29 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:42:29 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:42:29 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:42:29 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:42:29 UTC] PHP Warning:  Undefined array key 3 in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 41
+[24-Jul-2023 10:42:29 UTC] PHP Stack trace:
+[24-Jul-2023 10:42:29 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:42:29 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:42:29 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:42:29 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:42:29 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:42:29 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:42:29 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:42:29 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:42:33 UTC] PHP Warning:  Undefined array key 2 in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 40
+[24-Jul-2023 10:42:33 UTC] PHP Stack trace:
+[24-Jul-2023 10:42:33 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:42:33 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:42:33 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:42:33 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:42:33 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:42:33 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:42:33 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:42:33 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:42:33 UTC] PHP Warning:  Undefined array key 3 in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 41
+[24-Jul-2023 10:42:33 UTC] PHP Stack trace:
+[24-Jul-2023 10:42:33 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:42:33 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:42:33 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:42:33 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:42:33 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:42:33 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:42:33 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:42:33 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:42:40 UTC] PHP Warning:  Undefined array key 3 in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 41
+[24-Jul-2023 10:42:40 UTC] PHP Stack trace:
+[24-Jul-2023 10:42:40 UTC] PHP   1. {main}() C:\wamp64\www\corlate\index.php:0
+[24-Jul-2023 10:42:40 UTC] PHP   2. require() C:\wamp64\www\corlate\index.php:17
+[24-Jul-2023 10:42:40 UTC] PHP   3. require_once() C:\wamp64\www\corlate\wp-blog-header.php:19
+[24-Jul-2023 10:42:40 UTC] PHP   4. include() C:\wamp64\www\corlate\wp-includes\template-loader.php:106
+[24-Jul-2023 10:42:40 UTC] PHP   5. get_footer($name = *uninitialized*, $args = *uninitialized*) C:\wamp64\www\corlate\wp-content\themes\corlate\front-page.php:96
+[24-Jul-2023 10:42:40 UTC] PHP   6. locate_template($template_names = [0 => 'footer.php'], $load = TRUE, $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\general-template.php:92
+[24-Jul-2023 10:42:40 UTC] PHP   7. load_template($_template_file = 'C:\\wamp64\\www\\corlate/wp-content/themes/corlate/footer.php', $load_once = TRUE, $args = []) C:\wamp64\www\corlate\wp-includes\template.php:718
+[24-Jul-2023 10:42:40 UTC] PHP   8. require_once() C:\wamp64\www\corlate\wp-includes\template.php:783
+[24-Jul-2023 10:52:23 UTC] PHP Fatal error:  Uncaught TypeError: str_replace(): Argument #2 ($replace) must be of type string when argument #1 ($search) is a string in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php:37
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php(37): str_replace('array({a},{b},{...', Array, '{a} {b} {c} {d}')
+#1 C:\wamp64\www\corlate\wp-includes\template.php(783): require_once('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\corlate\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\c...', true, Array)
+#3 C:\wamp64\www\corlate\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#4 C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php(167): get_footer()
+#5 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#7 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 37
+[24-Jul-2023 10:52:56 UTC] PHP Fatal error:  Uncaught TypeError: str_replace(): Argument #2 ($replace) must be of type string when argument #1 ($search) is a string in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php:37
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php(37): str_replace('array({a},{b},{...', Array, '{a} {b} {c} {d}')
+#1 C:\wamp64\www\corlate\wp-includes\template.php(783): require_once('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\corlate\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\c...', true, Array)
+#3 C:\wamp64\www\corlate\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#4 C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php(167): get_footer()
+#5 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#7 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 37
+[24-Jul-2023 10:53:13 UTC] PHP Fatal error:  Uncaught TypeError: str_replace(): Argument #2 ($replace) must be of type string when argument #1 ($search) is a string in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php:37
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php(37): str_replace('array({a},{b},{...', Array, '{a} {b} {c} {d}')
+#1 C:\wamp64\www\corlate\wp-includes\template.php(783): require_once('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\corlate\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\c...', true, Array)
+#3 C:\wamp64\www\corlate\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#4 C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php(167): get_footer()
+#5 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#7 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 37
+[24-Jul-2023 10:53:52 UTC] PHP Fatal error:  Uncaught TypeError: str_replace(): Argument #2 ($replace) must be of type string when argument #1 ($search) is a string in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php:37
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php(37): str_replace('array({a},{b},{...', Array, '{a} {b} {c} {d}')
+#1 C:\wamp64\www\corlate\wp-includes\template.php(783): require_once('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\corlate\wp-includes\template.php(718): load_template('C:\\wamp64\\www\\c...', true, Array)
+#3 C:\wamp64\www\corlate\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#4 C:\wamp64\www\corlate\wp-content\themes\corlate\templates\tpl-corlate_blog.php(167): get_footer()
+#5 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\c...')
+#6 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#7 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#8 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\footer.php on line 37
+[24-Jul-2023 11:14:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_comment_reply() in C:\wamp64\www\corlate\wp-content\themes\corlate\single.php:118
+Stack trace:
+#0 C:\wamp64\www\corlate\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\corlate\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\corlate\index.php(17): require('C:\\wamp64\\www\\c...')
+#3 {main}
+  thrown in C:\wamp64\www\corlate\wp-content\themes\corlate\single.php on line 118
